@@ -1,55 +1,136 @@
 @font-face {
-    font-display: swap;
-    font-family: "gilroy-light", sans-serif;
-    src: url("../fonts/Gilroy-Light.eot");
-    src: url("../fonts/Gilroy-Light.eot?#iefix") format("embedded-opentype"),
-        url("../fonts/Gilroy-Light.woff2") format("woff2"), url("../fonts/Gilroy-Light.woff") format("woff"),
-        url("../fonts/Gilroy-Light.ttf") format("truetype");
-    font-weight: 300;
-    font-style: normal;
-}
-
-@font-face {
-    font-display: swap;
-    font-family: "../fonts/gilroy-heavy", sans-serif;
-    src: url("../fonts/Gilroy-Heavy.eot");
-    src: url("../fonts/Gilroy-Heavy.eot?#iefix") format("embedded-opentype"), url("Gilroy-Heavy.woff2") format("woff2"),
-        url("../fonts/Gilroy-Heavy.woff") format("woff"), url("../fonts/Gilroy-Heavy.ttf") format("truetype");
-    font-weight: 900;
-    font-style: normal;
-}
-
-@font-face {
-    font-display: swap;
-    font-family: "gilroy-medium", sans-serif;
-    src: url("../fonts/Gilroy-Medium.eot");
-    src: url("Gilroy-Medium.eot?#iefix") format("embedded-opentype"),
-        url("../fonts/Gilroy-Medium.woff2") format("woff2"), url("../fonts/Gilroy-Medium.woff") format("woff"),
-        url("../fonts/Gilroy-Medium.ttf") format("truetype");
-    font-weight: 500;
-    font-style: normal;
-}
-
-@font-face {
-    font-display: swap;
-    font-family: "gilroy-regular", sans-serif;
-    src: url("Gilroy-Regular.eot");
-    src: url("Gilroy-Regular.eot?#iefix") format("embedded-opentype"),
-        url("../fonts/Gilroy-Regular.woff2") format("woff2"), url("Gilroy-Regular.woff") format("woff"),
-        url("Gilroy-Regular.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-display: swap;
-    font-family: "gilroy-bold", sans-serif;
-    src: url("../fonts/Gilroy-Bold.eot");
-    src: url("../fonts/Gilroy-Bold.eot?#iefix") format("embedded-opentype"),
-        url("../fonts/Gilroy-Bold.woff2") format("woff2"), url("../fonts/Gilroy-Bold.woff") format("woff"),
-        url("../fonts/Gilroy-Bold.ttf") format("truetype");
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Bold.woff2') format('woff2'),
+        url('../fonts/Gilroy-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Bold.woff2') format('woff2'),
+        url('../fonts/Gilroy-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Heavy.woff2') format('woff2'),
+        url('../fonts/Gilroy-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Light.woff2') format('woff2'),
+        url('../fonts/Gilroy-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Heavy.woff2') format('woff2'),
+        url('../fonts/Gilroy-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Bold.woff2') format('woff2'),
+        url('../fonts/Gilroy-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Light.woff2') format('woff2'),
+        url('../fonts/Gilroy-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Heavy.woff2') format('woff2'),
+        url('../fonts/Gilroy-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Light.woff2') format('woff2'),
+        url('../fonts/Gilroy-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Medium.woff2') format('woff2'),
+        url('../fonts/Gilroy-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Medium.woff2') format('woff2'),
+        url('../fonts/Gilroy-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Regular.woff2') format('woff2'),
+        url('../fonts/Gilroy-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Regular.woff2') format('woff2'),
+        url('../fonts/Gilroy-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Medium.woff2') format('woff2'),
+        url('../fonts/Gilroy-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Regular.woff2') format('woff2'),
+        url('../fonts/Gilroy-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
 // Font type's
@@ -71,6 +152,7 @@ $paragraph: #5c5c5c;
 
 * {
     font-display: swap;
+    font-family: 'Gilroy';
     backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
     text-rendering: optimizeLegibility;
@@ -84,12 +166,12 @@ $paragraph: #5c5c5c;
 
 p,
 a {
-    font-family: $gilroymedium;
+    font-weight: 500;
     font-size: 18px;
 }
 
 h1 {
-    font-family: $gilroybold;
+    font-weight: bold;
     font-size: 36px;
     line-height: 42px;
     color: #ffffff;
@@ -101,7 +183,7 @@ h1 {
 }
 
 h2 {
-    font-family: $gilroybold;
+    font-weight: bold;
     font-size: 38px;
     line-height: 38px;
     color: #000000;
@@ -110,12 +192,12 @@ h2 {
     strong,
     b {
         color: $main;
-        font-weight: normal;
+        font-weight: bold;
     }
 }
 
 h3 {
-    font-family: $gilroybold;
+    font-weight: bold;
     font-size: 24px;
     line-height: 30px;
     color: #000000;
@@ -124,12 +206,12 @@ h3 {
     strong,
     b {
         color: $main;
-        font-weight: normal;
+        font-weight: bold;
     }
 }
 
 p {
-    font-family: $gilroymedium;
+    font-weight: 500;
     font-size: 18px;
     line-height: 27px;
     color: $paragraph;
@@ -140,7 +222,7 @@ p {
     background: #01d616;
     box-shadow: 0px 0px 20px rgba(1, 214, 22, 0.2);
     border-radius: 99px;
-    font-family: $gilroymedium;
+    font-weight: 500;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -347,20 +429,19 @@ nav .container .row--change {
             z-index: 1;
             align-items: flex-end;
             h1 {
-                font-family: $gilroybold;
+                font-weight: bold;
                 font-size: 36px;
                 line-height: 42px;
                 color: #ffffff;
                 b,
                 strong {
                     color: $main;
-                    font-weight: normal;
+                    font-weight: bold;
                 }
             }
             span {
-                font-family: $gilroybold;
+                font-weight: bold;
                 font-style: normal;
-                font-weight: normal;
                 font-size: 36px;
                 line-height: 42px;
                 text-align: right;
@@ -379,7 +460,7 @@ nav .container .row--change {
             margin-left: -52px;
             margin-right: -52px;
             li {
-                font-family: $gilroymedium;
+                font-weight: 500;
                 font-size: 18px;
                 line-height: 22px;
                 list-style: none;
@@ -435,19 +516,18 @@ nav .container .row--change {
                 transform: scale(1.02);
             }
             span {
-                font-family: $gilroybold;
+                font-weight: bold;
                 font-size: 22px;
                 line-height: 27px;
                 color: $main;
                 z-index: 1;
                 position: relative;
-                font-weight: normal;
                 strong,
                 b {
                     width: 100%;
                     display: block;
                     color: #ffffff;
-                    font-weight: normal;
+                    font-weight: bold;
                 }
             }
         }
@@ -545,7 +625,7 @@ nav .container .row--change {
                     color: #000000;
                     display: block;
                     width: 100%;
-                    font-family: $gilroybold;
+                    font-weight: bold;
                     strong {
                         color: $main;
                     }
@@ -572,15 +652,14 @@ footer {
     padding: 68px 0px 0px 0px;
     .widget {
         .widget-title {
-            font-family: $gilroybold;
+            font-weight: bold;
             font-style: normal;
-            font-weight: normal;
             font-size: 24px;
             line-height: 34px;
             color: $main;
         }
         a {
-            font-family: $gilroymedium;
+            font-weight: 500;
             font-style: normal;
             font-weight: normal;
             font-size: 18px;
@@ -656,7 +735,7 @@ footer {
             li {
                 list-style: none;
                 a {
-                    font-family: $gilroymedium;
+                    font-weight: 500;
                     font-style: normal;
                     font-weight: normal;
                     font-size: 16px;
